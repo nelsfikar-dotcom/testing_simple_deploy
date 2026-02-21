@@ -1,5 +1,5 @@
 import './App.css'
-import dayatPhoto from './assets/dayat.jpg'
+import Photo from './assets/pikar.png'
 // import GitHub from './components/GitHub'
 
 function App() {
@@ -24,9 +24,9 @@ function App() {
       <section id="hero" className="hero-section">
         <div className="hero-content">
           <div className="hero-photo">
-            <img src={dayatPhoto} alt="Dayat" />
+            <img src={Photo} alt="Pikar" />
           </div>
-          <h1>Halo, Saya <span className="highlight">Dayat</span></h1>
+          <h1>Halo, Saya <span className="highlight">NelsFikar</span></h1>
           <p className="hero-subtitle">Web Developer & Designer</p>
           <button className="cta-button" onClick={() => scrollTo('contact')}>
             Hubungi Saya
