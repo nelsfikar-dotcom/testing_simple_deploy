@@ -1,5 +1,6 @@
 import './App.css'
 import dayatPhoto from './assets/dayat.jpg'
+import GitHub from './components/GitHub'
 
 function App() {
   const scrollTo = (id: string) => {
@@ -91,6 +92,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <GitHub />
 
       {/* Contact Section */}
       <section id="contact" className="contact-section">
